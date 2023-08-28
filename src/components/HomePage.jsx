@@ -17,7 +17,7 @@ import '../index.css'
 const HomePage = () => {
    return (
       <>
-         <div className="home-page">homepage
+         <div className="home-page">
             <Carousel />
 
             <div className="grid-section">
@@ -42,6 +42,9 @@ const HomePage = () => {
             <CarouselProduct />
 
             <CarouselCategory />
+            <div className="comertial">
+               <img className="comertial-img" src={require('../images/banner_image.jpg')} alt="comer" />
+            </div>
          </div>
       </>
    )

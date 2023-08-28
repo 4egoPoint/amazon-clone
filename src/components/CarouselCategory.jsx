@@ -5,8 +5,6 @@ import category_3 from '../images/category_3.jpg'
 import category_4 from '../images/category_4.jpg'
 import category_5 from '../images/category_5.jpg'
 
-
-
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper/modules'
 import '../index.css'
