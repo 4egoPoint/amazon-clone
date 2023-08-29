@@ -168,10 +168,13 @@
    align-items: center;
    display: flex;
    padding: 0 3px;
+   border: 1px solid white;
+   border-radius: 5px;
 }
 
 .right__card-i {
    height: 48px;
+   color: white;
 }
 
 .right__extra {
@@ -348,7 +351,6 @@ body {
    display: flex;
    margin: 0 auto;
    max-width: 1500px;
-   background-color: #FEBD69;
 }
 
 .product__col1 {
@@ -455,8 +457,47 @@ body {
    z-index: 50;
    border-radius: 5px;
 }
-.search-results{
+
+.search-results {
    min-width: 1200px;
    max-width: 1300px;
    margin: auto;
+}
+
+.product-link {
+   text-decoration: none
+}
+
+.product-link-in {
+   height: 250px;
+   margin: 4px 0;
+   background-color: white;
+   display: flex;
+   color: black;
+   padding: 15px;
+}
+
+.product-link-in__price {
+   margin-left: 10px;
+   font-size: large;
+}
+
+.product-link-in__img {
+   height: 100%;
+
+}
+
+.point {
+   cursor: pointer;
+}
+
+.rev-col {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: white;
+}
+
+.relate {
 }

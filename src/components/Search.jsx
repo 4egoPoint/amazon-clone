@@ -4,7 +4,6 @@ import { callAPI } from '../utils/CallAPI'
 import '../index.css'
 import { createSearchParams, useNavigate } from 'react-router-dom'
 
-
 const Search = () => {
    const [suggestions, setSuggestions] = useState(null)
    const [searchTerm, setSearchTerm] = useState("")

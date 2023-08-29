@@ -3,8 +3,13 @@ import { ShoppingCartIcon } from '@heroicons/react/24/outline'
 import Search from './Search'
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useSelector } from 'react-redux'
+
 
 const NavBar = () => {
+
+   const cart = useSelector((state) => state.cart.productsNumber)
+
    return (
       <header className='nav-bar'>
          <div className='nav-bar__row'>
@@ -30,11 +35,16 @@ const NavBar = () => {
                   <div className="right__decor1">Returns</div>
                   <div className="right__decor2">& Orders</div>
                </div>
-               <Link to={"/checkout"} >
+               <Link className='product-link' to={"/checkout"} >
                   <div className="right__card">
                      <ShoppingCartIcon className='right__card-i' />
-                     <div className="right__extra">
-                        card
+                     <div className='rev-col'>
+                        <div className='relate'>
+                           {cart}
+                        </div>
+                        <div className="right__extra">
+                           card
+                        </div>
                      </div>
                   </div>
                </Link>
