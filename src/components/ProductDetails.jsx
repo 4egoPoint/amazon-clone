@@ -5,6 +5,9 @@ import ProductBadge from './ProductBadge'
 import ProductRaitings from './ProductRaitings'
 
 const ProductDetails = ({product, ratings}) => {
+
+   
+
    return (
       <div className='details'>
       <div className="details__title">{product.title}</div>

@@ -294,6 +294,15 @@
    color: rgb(249 115 22);
 }
 
+.he {
+   max-height: 300px
+}
+
+.loading {
+   text-align: center;
+   align-items: center;
+}
+
 .span-f2 {
    background-color: rgb(249 115 22);
    font-size: small;
@@ -418,8 +427,6 @@ body {
    color: green;
 }
 
-.col3__quant {}
-
 .col3__select {
    padding: 3px 5px;
    background-color: white;
@@ -427,7 +434,6 @@ body {
    border: 1px solid lightgray
 }
 
-.col3__option {}
 
 .col3__btn {
    margin-top: 30px;
@@ -499,5 +505,135 @@ body {
    color: white;
 }
 
-.relate {
+.checkout {
+   margin: auto;
+   min-width: 1000px;
+   max-width: 1500px;
+   padding-top: 8px;
+}
+
+.checkout__main-colums {
+   display: flex;
+   justify-content: space-between;
+}
+
+.checkout__main-colum1 {
+   width: 76%;
+   padding: 10px;
+   background-color: white;
+
+}
+
+.checkout__shopping {
+   font-size: large;
+   margin: 4px;
+}
+
+.checkout__product-item {
+   display: flex;
+   border-bottom: 1px solid lightgray;
+   margin-right: 4px;
+}
+
+
+
+.checkout__product-item-1 {
+   width: 75%;
+   display: flex;
+}
+
+.checkout__product-item-1-first {
+   width: 220px;
+
+}
+
+.checkout__product-item-1-second {
+   width: 75%;
+}
+
+.checkout__product-item-img {
+   padding: 4px;
+   margin: auto;
+   width: 200px;
+}
+
+.checkout__product-item-styled-link {
+   font-size: medium;
+   color: black;
+   margin-top: 2px;
+}
+
+.checkout__quantity {
+   display: flex;
+   width: 40px;
+   font-size: large;
+   background-color: lightgrey;
+   margin: 5px 10px;
+
+}
+
+.checkout__quantity-item {
+   display: flex;
+   align-items: center;
+   text-align: center;
+   padding: 3px 6px;
+   background-color: lightgrey;
+}
+
+.iterators {
+   background-color: grey;
+   border-radius: 4px;
+   width: 30px;
+   cursor: pointer;
+}
+
+.checkout__product-item2{
+   width: 100%;
+}
+.checkout__product-item2-price {
+   font-size: large;
+   font-weight: 500;
+   margin-top: 2;
+   margin-right: 2px;
+   text-align: end;
+}
+.checkout__btn-wrap{
+   margin-left: 10px;
+}
+.checkout__btn{
+   cursor: pointer;
+   border: none;
+   font-size: small;
+   color: rgb(53, 53, 241);
+
+   margin: 2px 0;
+}
+.checkout__btn:hover{
+   color: rgb(57, 57, 188);
+
+}
+.subtotal{
+   border-top: 1px solid black;
+   text-align: end;
+   font-size: large;
+}
+.bold{
+   font-weight: bold;
+}
+.checkout__main-colum2 {
+   width: 20%;
+   background-color: white;
+   height: 250px;
+   padding: 6px;
+}
+.main-colum2__texts{
+   font-size: small;
+   color: rgb(101, 196, 101);
+}
+.subtotal-new{
+   margin-top: 5px;
+   font-size: medium;
+}
+.none {
+   text-decoration: none;
 }
